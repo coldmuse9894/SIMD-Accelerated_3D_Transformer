@@ -1,7 +1,3 @@
-/***************************************************************************/
-/* WARNING: DO NOT CHANGE. This file will be overwritten by Buildbot       */
-/***************************************************************************/
-
 /* Matrix helper for left-handed coordinate system */
 #ifndef MATRIX_H
 #define MATRIX_H

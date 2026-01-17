@@ -1,6 +1,3 @@
-/***************************************************************************/
-/* WARNING: DO NOT CHANGE. This file will be overwritten by Buildbot       */
-/***************************************************************************/
 #include "matrix.h"
 
 #include <assert.h>

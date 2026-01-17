@@ -1,7 +1,3 @@
-/***************************************************************************/
-/* WARNING: DO NOT CHANGE. This file will be overwritten by Buildbot       */
-/***************************************************************************/
-
 #ifndef TRANSFORMER_H
 #define TRANSFORMER_H
 
