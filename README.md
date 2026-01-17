@@ -6,11 +6,7 @@
 
 * **SIMD Optimization**: x86 SSE의 `dpps` (Dot Product), `movaps`, `addps` 명령어를 사용하여 행렬 곱셈 및 벡터 변환 연산을 하드웨어 레벨에서 가속화했습니다.
 * **Memory Alignment**: SIMD 명령어의 성능을 최대로 끌어내기 위해 모든 데이터 구조체(`vec4_t`, `mat4_t`)를 16바이트 경계로 정렬(`__declspec(align(16))`)하여 설계했습니다.
-* **Efficient Transformation Pipeline**:
-* Scale, Rotation(X, Y, Z), Translation의 개별 행렬 생성 및 결합 기능을 제공합니다.
-* SIMD 내적 연산에 최적화된 행렬 전치(Transpose) 로직을 인라인 어셈블리로 구현했습니다.
-
-
+* **Efficient Transformation Pipeline**: Scale, Rotation(X, Y, Z), Translation의 개별 행렬 생성 및 결합 기능을 제공고 SIMD 내적 연산에 최적화된 행렬 전치(Transpose) 로직을 인라인 어셈블리로 구현했습니다.
 * **Left-Handed Coordinate System**: 3D 그래픽스에서 널리 사용되는 왼손 좌표계 기반의 변환 시스템을 지원합니다.
 
 ## 🛠 Tech Stack
